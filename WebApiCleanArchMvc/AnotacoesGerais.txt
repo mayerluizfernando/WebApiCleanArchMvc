@@ -1,0 +1,32 @@
+﻿CleanArchMvc.Domain:		Não possui nenhuma dependência
+CleanArchMvc.Application:	Dependência com projeto CleanArchMvc.Domain
+CleanArchMvc.Infra.Data:	Dependência com projeto CleanArchMvc.Domain
+CleanArchMvc.Infra.IoC:		Dependência com projeto CleanArchMvc.Domain, CleanArchMvc.Application, CleanArchMvc.Infra.Data
+WebApiApp.WebUI:			Dependência com projeto CleanArchMvc.Infra.IoC
+
+dotnet tool install --global dotnet-ef
+remove-migration ou dotnet ef migrations remove
+get-migration dotnet ef migrations list 
+add-migration <tag>
+update-database
+
+dotnet ef migrations remove Inicial --project CleanArchMvc.Infra.Data
+dotnet ef migrations add Inicial --project CleanArchMvc.Infra.Data
+dotnet ef database update Inicial2 --project CleanArchMvc.Infra.Data
+dotnet ef migrations list --project CleanArchMvc.Infra.Data
+
+Controller InfraPay simulação para ver como a arquitetura se comporta c/ acesso a serviços REST externos 
+Problema do ID int nas entidades ainda não resolvido. Como configurar o entity para não implementar o identity do SQL Server 
+	-Mesmo utilizando as possiveis configurações do fluent quando o ID é int a migration gera indentity para uam propriedade Id int.
+
+	Guia de estudos 
+	- data anottations web api/fluent
+	- Objetos de retorno http/webapi com status code tipo return Ok(jsonData) ou new CreatedAtRouteResult("GetCategory", new { id = k.Id }, k);
+
+	Model Validation
+	https://learn.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api
+
+
+	
+	ASP.NET Core Web API Best Practices
+	https://code-maze.com/aspnetcore-webapi-best-practices/

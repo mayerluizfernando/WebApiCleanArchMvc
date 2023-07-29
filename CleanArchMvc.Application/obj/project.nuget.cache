@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mVoqcOzHq3T+6eGeM/T+iHu6iHtQIM57Io2f75rOKthMhdCviemACKrUvnW5sJ8yr5uKv0G3X/3pE+Lc0fzZpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mayer\\Desktop\\Macoratti\\1.ProjetoTesteCurso\\WebApiCleanArchMvc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mayer\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\mayer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
