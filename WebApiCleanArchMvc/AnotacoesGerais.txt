@@ -1,4 +1,6 @@
-﻿CleanArchMvc.Domain:		Não possui nenhuma dependência
+﻿TESTE
+
+CleanArchMvc.Domain:		Não possui nenhuma dependência
 CleanArchMvc.Application:	Dependência com projeto CleanArchMvc.Domain
 CleanArchMvc.Infra.Data:	Dependência com projeto CleanArchMvc.Domain
 CleanArchMvc.Infra.IoC:		Dependência com projeto CleanArchMvc.Domain, CleanArchMvc.Application, CleanArchMvc.Infra.Data
