@@ -1,5 +1,4 @@
-﻿using CleanArchMvc.Application.DTOs;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace WebApiCleanArchMvc.Controllers
 {

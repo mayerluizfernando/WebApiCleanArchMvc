@@ -1,11 +1,6 @@
 ﻿using CleanArchMvc.Domain.Interfaces;
 using CleanArchMvc.Infra.Data._1.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CleanArchMvc.Domain.Entities;
 
 namespace CleanArchMvc.Infra.Data._3.Repositories
