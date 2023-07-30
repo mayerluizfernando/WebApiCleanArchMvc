@@ -19,4 +19,8 @@
     <ProjectReference Include="..\CleanArchMvc.Infra.IoC\CleanArchMvc.Infra.IoC.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Controllers\SecurityLogin.cs" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,13 @@
-﻿TESTE
+﻿JetBrains Rider
+https://www.jetbrains.com/help/rider/Navigation_and_Search__Navigating_Between_To_do_Items.html#patterns
+
+Code Maze - Site Excelente DotNet e eBooks pagos 
+C# Reference    ->  https://code-maze.com/csharp-back-to-basics/
+Books           ->  https://code-maze.com/ultimate-aspnetcore-webapi-second-edition/?source=tbanner&p=aspnetcore-webapi-best-practices
+
+
+
+
 
 CleanArchMvc.Domain:		Não possui nenhuma dependência
 CleanArchMvc.Application:	Dependência com projeto CleanArchMvc.Domain
