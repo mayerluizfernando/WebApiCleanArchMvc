@@ -5,10 +5,6 @@ Code Maze - Site Excelente DotNet e eBooks pagos
 C# Reference    ->  https://code-maze.com/csharp-back-to-basics/
 Books           ->  https://code-maze.com/ultimate-aspnetcore-webapi-second-edition/?source=tbanner&p=aspnetcore-webapi-best-practices
 
-
-
-
-
 CleanArchMvc.Domain:		Não possui nenhuma dependência
 CleanArchMvc.Application:	Dependência com projeto CleanArchMvc.Domain
 CleanArchMvc.Infra.Data:	Dependência com projeto CleanArchMvc.Domain
@@ -37,7 +33,44 @@ Problema do ID int nas entidades ainda não resolvido. Como configurar o entity 
 	Model Validation
 	https://learn.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api
 
-
-	
 	ASP.NET Core Web API Best Practices
 	https://code-maze.com/aspnetcore-webapi-best-practices/
+	
+	Para incluir um novo objeto/Ciclo Completo:
+	
+	WebApiCleanArchMvc
+	    P1.) Criar Controller           -> WebApiCleanArchMvc/Controllers
+	    
+	CleanArchMvc.Application
+        P2.) Criar Interface do Service -> CleanArchMvc.Application/Interfaces
+        P3.) Criar Service              -> CleanArchMvc.Application/Services
+	
+	CleanArchMvc.Domain
+	    P4.) Criar Interface do Domain  ->  CleanArchMvc.Domain/Interfaces
+	
+	CleanArchMvc.Infra.Data
+	    P5.) Criar Repository           -> CleanArchMvc.Infra.Data/3.Repositories
+	  
+
+
+Clean Architecture -> https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+Microsoft -> https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
+
+
+**************************************************************************************
+	https://stackoverflow.com/questions/2268699/domain-driven-design-domain-service-application-service
+	Summary
+    A complete application consists of three major layers:
+    
+    - domain
+    - infrastructure
+    - application
+
+    The domain layer contains the domain entities and stand-alone domain services. Any domain concepts (this includes domain services, but also repositories) that depend on external resources, are defined by interfaces.
+    
+    The infrastructure layer contains the implementation of the interfaces from the domain layer. These implementations may introduce new non-domain dependencies that have to be provided the application. These are the application services and are represented by interfaces.
+    
+    The application layer contains the implementation of the application services. The application layer may also contain additional implementations of domain interfaces, if the implementations provided by the infrastructure layer are not sufficient.
+    
+    Although this perspective may not match with the general DDD definition of services, it does separate the domain from the application and allows you to share the domain (and infrastructure) assembly between several applications.
+	

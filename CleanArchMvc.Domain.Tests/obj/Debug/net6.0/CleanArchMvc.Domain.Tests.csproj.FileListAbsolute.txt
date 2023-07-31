@@ -211,12 +211,12 @@ C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiApp.WebUI\CleanArchMv
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiApp.WebUI\CleanArchMvc.Domain.Tests\obj\Debug\net6.0\CleanArchMvc.Domain.Tests.genruntimeconfig.cache
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiApp.WebUI\CleanArchMvc.Domain.Tests\obj\Debug\net6.0\ref\CleanArchMvc.Domain.Tests.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
-C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\testhost.exe
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\testhost.dll
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\testhost.exe
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
-C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\CleanArchMvc.Domain.Tests.deps.json
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\CleanArchMvc.Domain.Tests.runtimeconfig.json
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\CleanArchMvc.Domain.Tests\bin\Debug\net6.0\CleanArchMvc.Domain.Tests.dll

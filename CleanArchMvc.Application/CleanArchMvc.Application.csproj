@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <UserSecretsId>1f3331fd-75ff-4618-8df5-895c245ee715</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +19,10 @@
     <Folder Include="9.ExternalServices\InfraPay\2.Interfaces\" />
     <Folder Include="9.ExternalServices\InfraPay\1.DTOs\" />
     <Folder Include="9.ExternalServices\InfraPay\3.Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="GlobalUsings.cs" />
   </ItemGroup>
 
 </Project>

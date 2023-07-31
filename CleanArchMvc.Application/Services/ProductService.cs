@@ -2,11 +2,6 @@
 using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
 using CleanArchMvc.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CleanArchMvc.Domain.Entities;
 
 namespace CleanArchMvc.Application.Services

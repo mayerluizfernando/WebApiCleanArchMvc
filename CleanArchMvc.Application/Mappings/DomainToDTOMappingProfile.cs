@@ -1,10 +1,5 @@
 ﻿using AutoMapper;
 using CleanArchMvc.Application.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CleanArchMvc.Domain.Entities;
 
 namespace CleanArchMvc.Application.Mappings

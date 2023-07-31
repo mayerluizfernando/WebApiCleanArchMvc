@@ -18,4 +18,8 @@
     <ProjectReference Include="..\CleanArchMvc.Infra.Data\CleanArchMvc.Infra.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="DependencyInjection.cs" />
+  </ItemGroup>
+
 </Project>

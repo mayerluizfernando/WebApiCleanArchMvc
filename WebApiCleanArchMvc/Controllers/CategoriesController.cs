@@ -52,18 +52,18 @@ namespace WebApiCleanArchMvc.Controllers
         //
         [HttpPost]
         
-        public async Task<ActionResult> Post([FromBody] CategoryDto categoryDTO)
+        public async Task<ActionResult> Post([FromBody] CategoryDto categoryDto)
         {
-            if (categoryDTO == null)
+            if (categoryDto == null)
             {
                 return BadRequest("Invalid Data.");
             } else
             {
-                var k = await _categoryService.Add(categoryDTO);
+                var k = await _categoryService.Add(categoryDto);
 
                 //retorna statusCode 201, chamando o Get GetCategory
                 return new CreatedAtRouteResult("GetCategory", new { id = k.Id }, k);
-                // OkObjectResult(new Foo { Id = id }) ***Nãop pode usar no post, somente no get 
+                // OkObjectResult(new Foo { Id = id }) ***Não pode usar no post, somente no get 
             }
             //retorna statusCode 201, chamando o Get GetCategory
             //return new CreatedAtRouteResult("GetCategory", new { id = categoryDTO.Id }, categoryDTO);
