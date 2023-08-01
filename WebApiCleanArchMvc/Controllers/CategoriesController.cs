@@ -1,12 +1,17 @@
-﻿using CleanArchMvc.Application.DTOs;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Text;
+using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
 namespace WebApiCleanArchMvc.Controllers
 {
 
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize] //Somente com token válido
     public class CategoriesController : Controller
     {
 
@@ -29,8 +34,33 @@ namespace WebApiCleanArchMvc.Controllers
         //}
 
         [HttpGet]
+        [Authorize] //Somente com token válido
         public async Task<ActionResult<IEnumerable<CategoryDto>>> Get()
         {
+            //#### Teste LFernando
+            var secretKey = "jkkH AH SJKGHDSDjhgjg7867868769&$%*****45"; //appsettings.json 
+            var Issuer = "teste.net"; //appsettings 
+            var Audience = "http://teste.net";  //appsettings
+            string xyzHeader = Request.Headers["Authorization"];
+            var tokenHandler = new JwtSecurityTokenHandler();
+            
+            var kxy = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true, 
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = Issuer,       //appsettings
+                ValidAudience = Audience,   //appsettings
+                IssuerSigningKey = new SymmetricSecurityKey(
+                    Encoding.UTF8.GetBytes(secretKey)), //appsettings
+                ClockSkew = TimeSpan.Zero   //Sem tempo adicional na expiração do token 
+            };
+
+            //Deu pau tokenHandler.ValidateToken(xyzHeader,kxy, out var jksdfjh);
+            
+            //#### Teste LFernando
+            
             var categories = await _categoryService.GetCategories();
             if (categories == null)
             {

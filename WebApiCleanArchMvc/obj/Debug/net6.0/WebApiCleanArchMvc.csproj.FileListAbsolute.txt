@@ -111,6 +111,7 @@ C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCl
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Humanizer.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\MediatR.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll

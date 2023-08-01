@@ -125,15 +125,15 @@ public class SecurityLoginController : Controller
         //se usuário não existe return BadRequest
         //Se result Pode Gerar o Token
         var token = GenerateToken(userInfo);
+
         //return Ok(token);
         //return Created("Token Criado com sucesso", token);
         return token;
         
-        
-        
         //return  Ok(new { id = 1, name = "Juka" });
         return Ok(userInfo);
     }
+  
 
     private ActionResult<UserToken> GenerateToken(LoginModel userInfo)
     {

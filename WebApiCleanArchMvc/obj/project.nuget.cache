@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cGp0P4CQqQtbOxaEl7NGmNqZb6Qt4sD7vitYRqFFMTfRkii5KC+Qv9BqkkZIE9DnE5q5ajAEqUDhVI8w7fRoig==",
+  "dgSpecHash": "sKZyoVV2+0u1WkbI3uvJ7AuTx/ywjOnjfrmP3tpv/EelzAzyvPIlVK4zOymoYoViMfB79mhDS138W7t7u00Acw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mayer\\Desktop\\Macoratti\\1.ProjetoTesteCurso\\WebApiCleanArchMvc\\WebApiCleanArchMvc\\WebApiCleanArchMvc.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\mayer\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mayer\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\mayer\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\mayer\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.20\\microsoft.aspnetcore.authentication.jwtbearer.6.0.20.nupkg.sha512",
     "C:\\Users\\mayer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mayer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\mayer\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
