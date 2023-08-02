@@ -3,6 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
+using CleanArchMvc.Infra.IoC.Utils;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -95,6 +96,13 @@ namespace WebApiCleanArchMvc.Controllers
         //[Authorize] //Somente com token válido
         public async Task<ActionResult<IEnumerable<CategoryDto>>> Get()
         {
+
+            //var x = new UtilConfigApp();
+            //var ModuleTitle = x.ModuleTitle;
+            //var BundlingActive = x.BundlingActive;
+            //
+            var ModuleTitle = UtilConfigApp.ModuleTitle;
+            
             //#### Teste LFernando
             var secretKey = "jkkH AH SJKGHDSDjhgjg7867868769&$%*****45"; //appsettings.json 
             var Issuer = "teste.net"; //appsettings 

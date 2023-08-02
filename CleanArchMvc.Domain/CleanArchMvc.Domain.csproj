@@ -6,4 +6,16 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Utils\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Utils\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Utils\**" />
+  </ItemGroup>
+
 </Project>

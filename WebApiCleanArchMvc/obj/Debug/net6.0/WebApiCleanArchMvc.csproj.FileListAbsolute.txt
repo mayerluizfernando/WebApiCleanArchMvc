@@ -197,3 +197,9 @@ C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCl
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\obj\Debug\net6.0\WebApiCleanArchMvc.pdb
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\obj\Debug\net6.0\WebApiCleanArchMvc.genruntimeconfig.cache
 C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\obj\Debug\net6.0\ref\WebApiCleanArchMvc.dll
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\mayer\Desktop\Macoratti\1.ProjetoTesteCurso\WebApiCleanArchMvc\WebApiCleanArchMvc\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
