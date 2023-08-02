@@ -134,7 +134,8 @@ public class SecurityLoginController : Controller
         return Ok(userInfo);
     }
   
-
+    
+    
     private ActionResult<UserToken> GenerateToken(LoginModel userInfo)
     {
         //declarações/propriedades do usuário 
@@ -154,7 +155,7 @@ public class SecurityLoginController : Controller
         var credentials = new SigningCredentials(privateKey, SecurityAlgorithms.HmacSha256);
         
         //definir o tempo de expiração do Token 
-        var expiration = DateTime.UtcNow.AddMinutes(60);
+        var expiration = DateTime.UtcNow.AddMinutes(1);
         
         //gerar Token 
         var Issuer = "teste.net"; //appsettings 
@@ -164,7 +165,8 @@ public class SecurityLoginController : Controller
             audience:  Audience,
             claims: claims, 
             expires: expiration,
-            signingCredentials: credentials
+            signingCredentials: credentials 
+            
             );
 
         var result = new UserToken()

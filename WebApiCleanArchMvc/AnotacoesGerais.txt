@@ -73,4 +73,14 @@ Microsoft -> https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-ap
     The application layer contains the implementation of the application services. The application layer may also contain additional implementations of domain interfaces, if the implementations provided by the infrastructure layer are not sufficient.
     
     Although this perspective may not match with the general DDD definition of services, it does separate the domain from the application and allows you to share the domain (and infrastructure) assembly between several applications.
+*************************************************************************************
+appsettings in static class  
+
+https://www.google.com/search?q=c%23+dotnet+core+6+static+class+appsettings+parameter&oq=c%23+dotnet+core+6+static+class+appsettings+parameter&aqs=chrome..69i57j69i58.97760521j0j15&sourceid=chrome&ie=UTF-8
+https://stackoverflow.com/questions/45885615/asp-net-core-access-configuration-from-static-class
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0
+
+
+
+
 	
