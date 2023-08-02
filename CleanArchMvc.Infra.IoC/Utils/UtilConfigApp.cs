@@ -1,5 +1,11 @@
 ﻿using Microsoft.Extensions.Configuration;
 
+//Dependências 
+//Microsoft.Extensions.Configuration.Abstractions 
+//Microsoft.Extensions.Configuration.Json
+//Microsoft.Extensions.Configuration
+
+
 namespace CleanArchMvc.Infra.IoC.Utils;
 
 public static class UtilConfigApp
@@ -7,6 +13,25 @@ public static class UtilConfigApp
     private static string _moduleTitle;
     private static bool? _bundlingActive;
  
+    
+    //#### Teste L.Fernando
+    //http://www.developerslearnit.com/2022/07/access-configuration-settings-in.html
+    private static IConfiguration _configuration;
+    public static void AppSettingsConfigure(IConfiguration configuration)
+    {
+        _configuration = configuration;
+    }
+
+    public static string Setting(string Key)
+    {
+        return _configuration.GetSection(Key).Value;
+        //return "123456";
+    }
+    
+    
+    //#### Teste L.Fernando
+    
+    
     public static string ModuleTitle
     {
         get

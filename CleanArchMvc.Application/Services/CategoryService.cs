@@ -30,6 +30,7 @@ namespace CleanArchMvc.Application.Services
 
         public async Task<IEnumerable<CategoryDto>> GetCategories()
         {
+            
             var categoryEntity = await _categoryRepository.GetCategoriesAsync();
             return _mapper.Map<IEnumerable<CategoryDto>>(categoryEntity);
             //throw new NotImplementedException();

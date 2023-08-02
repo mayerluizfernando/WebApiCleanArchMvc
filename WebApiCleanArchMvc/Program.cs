@@ -1,17 +1,19 @@
 using System.Text;
 using CleanArchMvc.Infra.IoC;
+using CleanArchMvc.Infra.IoC.Utils;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 //#### Custom Change LFernando 
 ConfigurationManager configuration = builder.Configuration;
-builder.Services.AddInfrastructureAPI(configuration);
+builder.Services.AddInfrastructureApi(configuration);
 //#### Custom Change LFernando
+
+
 
 
 //#### Custom Change LFernando - Configurar a validação ao Token Bearer A*11/103
@@ -91,6 +93,11 @@ builder.Services.AddSwaggerGen(c =>
 //#### Custom Change LFernando
 
 var app = builder.Build();
+
+//#### Teste LFernando
+UtilConfigApp.AppSettingsConfigure(app.Services.GetRequiredService<IConfiguration>());
+//#### Teste LFernando
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

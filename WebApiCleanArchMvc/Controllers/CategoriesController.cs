@@ -102,6 +102,10 @@ namespace WebApiCleanArchMvc.Controllers
             //var BundlingActive = x.BundlingActive;
             //
             var ModuleTitle = UtilConfigApp.ModuleTitle;
+
+
+            var Explode = UtilConfigApp.Setting("HML:parametro1");
+            
             
             //#### Teste LFernando
             var secretKey = "jkkH AH SJKGHDSDjhgjg7867868769&$%*****45"; //appsettings.json 

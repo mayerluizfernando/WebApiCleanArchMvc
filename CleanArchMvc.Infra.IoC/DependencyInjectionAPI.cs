@@ -10,9 +10,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace CleanArchMvc.Infra.IoC
 {
-    public static class DependencyInjectionAPI
+    public static class DependencyInjectionApi
     {
-        public static IServiceCollection AddInfrastructureAPI(this IServiceCollection services,
+        public static IServiceCollection AddInfrastructureApi(this IServiceCollection services,
             IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
@@ -24,7 +24,7 @@ namespace CleanArchMvc.Infra.IoC
 
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
-
+            
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             //var myHandlers = AppDomain.CurrentDomain.Load("CleaArchMvc.Application");
